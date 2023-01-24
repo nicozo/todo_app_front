@@ -5,5 +5,14 @@ export default defineNuxtConfig({
       title: 'Todo App',
       meta: [{ name: 'description', content: 'Todo App' }],
     }
+  },
+  // css: ['vuetify/lib/styles/main.sass'],
+  build: {
+    transpile: ['vuetify'],
+  },
+  vite: {
+    define: {
+      'process.env.DEBUG': false,
+    }
   }
 })
