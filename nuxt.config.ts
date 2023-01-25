@@ -6,7 +6,7 @@ export default defineNuxtConfig({
       meta: [{ name: 'description', content: 'Todo App' }],
     }
   },
-  // css: ['vuetify/lib/styles/main.sass'],
+  css: ['vuetify/lib/styles/main.sass', 'mdi/css/materialdesignicons.min.css'],
   build: {
     transpile: ['vuetify'],
   },
@@ -14,5 +14,5 @@ export default defineNuxtConfig({
     define: {
       'process.env.DEBUG': false,
     }
-  }
+  },
 })
