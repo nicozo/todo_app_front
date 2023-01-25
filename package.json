@@ -12,6 +12,7 @@
     "sass": "^1.57.1"
   },
   "dependencies": {
+    "mdi": "^2.2.43",
     "vuetify": "^3.1.2"
   }
 }
